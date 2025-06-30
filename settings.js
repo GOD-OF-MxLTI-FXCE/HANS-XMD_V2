@@ -37,7 +37,7 @@ global.wm = "HANS BOT"
 global.link = 'https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31'
 
 //custom prefix
-global.prefa = ['','!','.','#','/']
+global.prefa = [''.'!','.','#','/']
 
 
 //bot settings
