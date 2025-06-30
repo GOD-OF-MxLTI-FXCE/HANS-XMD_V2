@@ -9,10 +9,10 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&C8YT3QJQ#OGNYhczxNCa2QAz1yhIpZJPjWNfo1H7YKJc6phgREjI" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "50932818924"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃"
 
 global.ytname = "HANSTZ-TECH"
 
@@ -42,7 +42,7 @@ global.prefa = ['','!','.','#','/']
 
 //bot settings
 global.autolikestatus = true //For auto react Status Random
-global.autoRecording = false //auto recording
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
